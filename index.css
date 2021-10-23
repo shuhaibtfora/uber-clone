@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    /* background-color: black; */
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+
+}
+.navcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 66px;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    margin-left: 56px;
+    width: 50%;
+    position: relative;
+
+}
+.logo{
+    color: white;
+}
+
+.dpdwn{
+    margin-left: 20px;
+    
+}
+
+.dpdwnln{
+    margin-left: 12px
+}
+
+.un{
+    list-style-type: none;
+   
+}
+
+ul.bn li.ln a{
+    text-decoration: none;
+    color: white;
+}
+ul.bn li.ln{
+    display: inline-block;
+    font-family: sans-serif;
+    
+}
+ul.bn{
+    list-style-type: none;
+}
+
+/* RIGHT STARTING */
+
+.rightnav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 36px;
+    width: 50%;
+    /* background-color: brown; */
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    width: 70px;
+    height: 26px;
+}
+.imgen{
+    background-color: white;
+    padding: 2px;
+    height: 24px;
+    border-radius: 50%;
+}
+div.lang button.btn{
+    margin-left: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 26px;
+}
+.productpng{
+    height: 24px;
+    padding: 1px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.productbtn{
+    font-size: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 26px;
+}
+.loginbutton{
+    font-size: 15px;
+    width: 72px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding-left: 3px;
+}
+.userpng{
+    padding: 2px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: white;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 26px;
+}
+
+.signbutton{
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    /* color: white; */
+    color: black;
+    height: 38px;
+    width: 80px;
+    border-radius: 5;
+    border-radius: 18px;
+}
+.navmenu{
+    padding-left: 10px;
+    margin: 20px;
+    
+}
+
+
+/* STARTING MAINIMAGE */
+
+
+/* #transp{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    
+} */
+.imagecontainer{
+    width: 100%;
+    height: 666px;
+    background-image: url("/main-bg.jpeg");
+    position: relative;
+}
+
+
+#popup{
+    width: 32%;
+    height: 62%;
+    background-color: indianred;
+    margin: 26px auto;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    
+}
+.inpctrl{
+    width: 100%;
+    height: 100%;
+}
+.closeparant{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.inputbox{
+    width: 68%;
+}
+input{
+    border: 4px solid grey;
+    border-radius: 6px;
+    padding: 6px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+#loginbtn{
+    width: 100%;
+    height: 38px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid beige;
+    cursor: pointer;
+    background-color: rgb(124, 124, 231);
+    font-size: 16px;
+
+}
+
+#close{
+width: 38px;
+height: 28px;
+border-radius: 50%;
+border: none;position: absolute;
+right: -15px;
+top: -15px;
+
+}
+
+#transp{
+    width: 100%;
+    height: 100%;
+    background-color: rgba;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    opacity: 97%;
+    display: none;
+    
+}
+
+/* .sectionimage{
+    background-image: url("/section2-bg.png"); 
+    width: 100%;
+    height: 300px;
+}  */
+
+.imgtrd{
+    background-image: url("/section2-bg.png");
+    width: 100%;
+    height: 288px;
+    background-position: 50% 65%;
+}
+
+.stickyposter{
+    position: absolute;
+    top: 65px;
+    left: 105px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+.sticky1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+}
+.sticky2{
+    box-sizing: border-box;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    /* background-color: burlywood; */
+}
+/* .sticky3{
+    width: 100%;
+    height: 35%;
+    background-color: coral;
+} */
+
+.eat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ride{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.stickh1{
+    font-family: sans-serif;
+    font-size: 48px;
+    padding-bottom: 22px;
+    margin-top: -74px;
+    /* font-weight: inherit; */
+
+}
+
+.stickybtn{
+    width: 136px;
+    height: 38px;
+    margin-top: 16px;
+    background-color: black;
+    color: white;
+}
+
+.para{
+    margin-top: 26px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+.ptag{
+    padding-top: 8px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.textbox{
+    width: 40%;
+    height: 273px;
+    /* background: black; */
+    /* color: white; */
+    /* margin-left: 126px; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.textparahone{
+    padding-bottom: 20px;
+}
+.textpara{
+    padding-bottom: 28px;
+    font-family: sans-serif;
+}
+
+.textparabtn{
+    width: 112px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border: none;
+}
+
+@media all and (max-width:970px){
+  .bn{
+      display: none;
+  }  
+}
+
+@media all and (max-width:750px){
+    .stickyposter{
+        position: initial;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    .sticky2{
+        box-sizing: border-box;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80%;
+        /* background-color: burlywood; */
+    }
+    .sticky1{
+        margin-top: 20px;
+    }
+    .lang{
+        display: none;
+    }
+    .product{
+        display: none;
+    }
+
+    #transp{
+        top: 0;
+        margin-top: -20px;
+        
+    }
+}
+@media all and (max-width:650px){
+    .lang{
+        display: none;
+    }
+    .product{
+        display: none;
+    }
+    .stickh1{
+        font-size: 42px;
+    }
+    .stickybtn{
+        margin-top: 28px;
+    }
+
+}
+
+@media all and (max-width:600px){
+    .lang{
+        display: none;
+    }
+
+    .product{
+        display: none;
+    }
+    .textparahone{
+        font-size: 28px;
+    } 
+    #transp{
+        
+        margin-top: -80px;
+        height: 112%;
+    }
+
+}
+
+
+@media all and (max-width:370px){
+    .sticky1{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        margin-top: 80px;
+    }
+
+    .sticky2{
+        margin-top: 10px;
+    }
+    .deliver{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .eat{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .ride{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .login{
+        display: none;
+    }
+    .stickh1{
+        font-size: 30px;
+    }
+
+    .textpara{
+        line-height: 22px;
+    }
+    #transp{
+        top: 0;
+        margin-top: -80px;
+        height: 112%;
+    }
+    
+
+}
